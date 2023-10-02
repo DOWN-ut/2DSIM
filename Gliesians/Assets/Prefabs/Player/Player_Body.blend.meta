@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 5f694b29ed7fb8b4d8b3637781361b41
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bip_l_collar
+    100004: bip_l_fingers1
+    100006: bip_l_fingers2
+    100008: bip_l_foot
+    100010: bip_l_forearm
+    100012: bip_l_hand
+    100014: bip_l_lowerleg
+    100016: bip_l_thigh
+    100018: bip_l_thumb1
+    100020: bip_l_thumb2
+    100022: bip_l_thumb3
+    100024: bip_l_toe
+    100026: bip_l_upperarm
+    100028: bip_r_collar
+    100030: bip_r_fingers1
+    100032: bip_r_fingers2
+    100034: bip_r_foot
+    100036: bip_r_forearm
+    100038: bip_r_hand
+    100040: bip_r_lowerleg
+    100042: bip_r_thigh
+    100044: bip_r_thumb1
+    100046: bip_r_thumb2
+    100048: bip_r_thumb3
+    100050: bip_r_toe
+    100052: bip_r_upperarm
+    100054: bip_spine1
+    100056: bip_spine2
+    100058: bip_spine3
+    100060: bip_spine4
+    100062: head
+    100064: human
+    100066: lower_l_finger1
+    100068: lower_l_finger2
+    100070: lower_l_finger3
+    100072: lower_l_finger4
+    100074: lower_l_finger5
+    100076: lower_lip
+    100078: lower_lip_l
+    100080: lower_lip_r
+    100082: lower_r_finger1
+    100084: lower_r_finger2
+    100086: lower_r_finger3
+    100088: lower_r_finger4
+    100090: lower_r_finger5
+    100092: neck
+    100094: pelvis
+    100096: root
+    100098: //RootNode
+    100100: upper_l_finger1
+    100102: upper_l_finger2
+    100104: upper_l_finger3
+    100106: upper_l_finger4
+    100108: upper_l_finger5
+    100110: upper_lip
+    100112: upper_lip_l
+    100114: upper_lip_r
+    100116: upper_r_finger1
+    100118: upper_r_finger2
+    100120: upper_r_finger3
+    100122: upper_r_finger4
+    100124: upper_r_finger5
+    400000: Armature
+    400002: bip_l_collar
+    400004: bip_l_fingers1
+    400006: bip_l_fingers2
+    400008: bip_l_foot
+    400010: bip_l_forearm
+    400012: bip_l_hand
+    400014: bip_l_lowerleg
+    400016: bip_l_thigh
+    400018: bip_l_thumb1
+    400020: bip_l_thumb2
+    400022: bip_l_thumb3
+    400024: bip_l_toe
+    400026: bip_l_upperarm
+    400028: bip_r_collar
+    400030: bip_r_fingers1
+    400032: bip_r_fingers2
+    400034: bip_r_foot
+    400036: bip_r_forearm
+    400038: bip_r_hand
+    400040: bip_r_lowerleg
+    400042: bip_r_thigh
+    400044: bip_r_thumb1
+    400046: bip_r_thumb2
+    400048: bip_r_thumb3
+    400050: bip_r_toe
+    400052: bip_r_upperarm
+    400054: bip_spine1
+    400056: bip_spine2
+    400058: bip_spine3
+    400060: bip_spine4
+    400062: head
+    400064: human
+    400066: lower_l_finger1
+    400068: lower_l_finger2
+    400070: lower_l_finger3
+    400072: lower_l_finger4
+    400074: lower_l_finger5
+    400076: lower_lip
+    400078: lower_lip_l
+    400080: lower_lip_r
+    400082: lower_r_finger1
+    400084: lower_r_finger2
+    400086: lower_r_finger3
+    400088: lower_r_finger4
+    400090: lower_r_finger5
+    400092: neck
+    400094: pelvis
+    400096: root
+    400098: //RootNode
+    400100: upper_l_finger1
+    400102: upper_l_finger2
+    400104: upper_l_finger3
+    400106: upper_l_finger4
+    400108: upper_l_finger5
+    400110: upper_lip
+    400112: upper_lip_l
+    400114: upper_lip_r
+    400116: upper_r_finger1
+    400118: upper_r_finger2
+    400120: upper_r_finger3
+    400122: upper_r_finger4
+    400124: upper_r_finger5
+    2100000: body
+    4300000: human
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: human
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 27ac600dcc0a8534f95202aa8e79d99e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2813533377323553630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2813533377323553617}
+  - component: {fileID: 2813533377323553616}
+  m_Layer: 0
+  m_Name: Maper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2813533377323553617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813533377323553630}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
+--- !u!114 &2813533377323553616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813533377323553630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981a20c34d2485a4d8e307b811b97ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usableBlocs:
+  - {fileID: 11400000, guid: b0c74014cabcb424a9883a552bad8ac9, type: 2}
+  - {fileID: 11400000, guid: 4dd665c37232ef2458847c5d09a3e213, type: 2}
+  - {fileID: 11400000, guid: b40aba5d88ae9c04a93b0b956c6b8e4e, type: 2}
+  - {fileID: 11400000, guid: b40aba5d88ae9c04a93b0b956c6b8e4e, type: 2}
+  - {fileID: 11400000, guid: b40aba5d88ae9c04a93b0b956c6b8e4e, type: 2}
+  - {fileID: 11400000, guid: 5198f1998b5c2bb49b46f4d53982e1e7, type: 2}
+  - {fileID: 11400000, guid: f5cba4c0a4383674c9c17ee47590cef3, type: 2}
+  - {fileID: 11400000, guid: b87d74421f30c3d43a109c51f7e81f3f, type: 2}
+  - {fileID: 11400000, guid: 2bf8c3048f057c44089915f489ec4761, type: 2}
+  - {fileID: 11400000, guid: c9c3d0db5f8c9a846a889fe2554ee358, type: 2}
+  - {fileID: 11400000, guid: 36de54fa98e863548846511746b59a25, type: 2}
+  - {fileID: 11400000, guid: 94c98b94ed6b7cc488b54919875b0698, type: 2}
+  - {fileID: 11400000, guid: a9462ad18d2d37147bbb47bd69e4bf76, type: 2}
+  - {fileID: 11400000, guid: 3176a127565e4bd48bb1ae3cfc34ff5f, type: 2}
+  - {fileID: 11400000, guid: 0ed78979ed4661141a88d1f388217918, type: 2}
+  - {fileID: 11400000, guid: 4dd665c37232ef2458847c5d09a3e213, type: 2}
+  - {fileID: 11400000, guid: df06f19555209ab438c31794cc4fd7d7, type: 2}
+  - {fileID: 11400000, guid: c31697f80bf15e04892774dae2f62304, type: 2}
+  - {fileID: 11400000, guid: 1850d2c9ee2142f42834c29b54e086cd, type: 2}
+  - {fileID: 11400000, guid: 4f2257a56475ecf4192558c15a0fcb8e, type: 2}
+  - {fileID: 11400000, guid: b0c74014cabcb424a9883a552bad8ac9, type: 2}
+  - {fileID: 11400000, guid: b0c74014cabcb424a9883a552bad8ac9, type: 2}
+  - {fileID: 11400000, guid: 98c2a99da58651642b2e3896c13b7ce9, type: 2}
+  - {fileID: 11400000, guid: f8ae44fd3c7b2c841970b0394f591070, type: 2}
+  - {fileID: 11400000, guid: 76df07ee7a820a540a18e640caeccb46, type: 2}
+  - {fileID: 11400000, guid: 18121a398bd7e5a4eb596b41f59973d2, type: 2}
+  - {fileID: 11400000, guid: 501819f5563d5b342b2ed51ad0a4456d, type: 2}
+  - {fileID: 11400000, guid: 266edc8fb9da2284896a60cc4cab993c, type: 2}
+  - {fileID: 11400000, guid: 266edc8fb9da2284896a60cc4cab993c, type: 2}
+  - {fileID: 11400000, guid: 501819f5563d5b342b2ed51ad0a4456d, type: 2}
+  - {fileID: 11400000, guid: 18121a398bd7e5a4eb596b41f59973d2, type: 2}
+  - {fileID: 11400000, guid: 76df07ee7a820a540a18e640caeccb46, type: 2}
+  - {fileID: 11400000, guid: 3d14eed8d37076946aa0c1bdd791ebd3, type: 2}
+  - {fileID: 11400000, guid: 3d14eed8d37076946aa0c1bdd791ebd3, type: 2}
+  wallBlocs:
+  - {fileID: 11400000, guid: dd664cc77651f6e40baf702f77bdbcf0, type: 2}
+  wallBlockProb: 0
+  voidBlocs:
+  - {fileID: 11400000, guid: b17adacae0bf02e4eb3a4431b6d827c5, type: 2}
+  biome: {fileID: 11400000, guid: 40792c6a33150b04c81081196cbca638, type: 2}
+  maxEtageDensity: 0.6
+  minEtageDensity: 0.1
+  minHeight: 1
+  maxHeight: 5
+  biomeCoherence: 150
+  aviableArchitectures:
+  - Corridor
+  - Place
+  - Room
+  - Place
+  architectureCoherence: 5
+  architectureForce: 1.5
+  spawners:
+  - {fileID: -6970900938180016329, guid: 14bb08f1d83c13d4da0f540231b45ebb, type: 3}
+  - {fileID: 2712174472646071488, guid: 0be817d2193adb1499eac8166145342c, type: 3}
+  - {fileID: 7265596492052063525, guid: 5277c3fd9e2e7d5418f7e82dc26300e9, type: 3}
+  - {fileID: 4123381155978222918, guid: cb63f5f32efe35b438beb193e8dc4a6d, type: 3}
+  - {fileID: 1751488458019535136, guid: 0de5f5295d666c3419eaddda5bba924c, type: 3}
+  spawnerPrefab: {fileID: 8243902797190256306, guid: 2972a267fed86254d98d239140793eb8,
+    type: 3}
+  spawnersHeight: 1.25
+  spawnerDensity: 0.45
+  lootboxes: []
+  lootboxesHeight: 0.3
+  lootboxesDensity: 0.25
+  showBitMap: 0
+  bitMapDistance: 200
+  regenerate: 0
+  width: 10
+  length: 10
+  height: 5
+  blocWidth: 30
+  blocLength: 30
+  blocHeight: 33
+  resize: 3
+  blockModelResize: 2
+  navMap: {fileID: 0}
+  manager: {fileID: 0}
+  mainCheckpoints: []
+  navMeshGened: 0
+  size: 1
+  generated: 0

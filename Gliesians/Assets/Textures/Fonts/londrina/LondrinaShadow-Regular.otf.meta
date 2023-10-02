@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2c7940c9264dba14584bf6c50c43dec3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Londrina Shadow
+  fontNames:
+  - Londrina Shadow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a775179d077c3274294a111f5896c601, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

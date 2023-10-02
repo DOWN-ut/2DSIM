@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &54691208053151790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2738787675217940698}
+  - component: {fileID: 921122312754162917}
+  - component: {fileID: 5922045702822227571}
+  - component: {fileID: -1181988063177382387}
+  m_Layer: 0
+  m_Name: Pathfinder_Ability1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2738787675217940698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54691208053151790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921122312754162917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54691208053151790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4bb24bf824608408985440c9549c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotPortee: 30
+  grappedPortee: 50
+  speed: 75
+  tractingSpeed: 400
+  forwardSpeed: 30
+  attachForce: 25
+  attachPow: 2
+  grapped: 0
+  lenght: 0
+  pin: {fileID: 0}
+  chainResolution: 25
+  pinRef: {fileID: 7871510957378010030, guid: fb55b4a6e662e024d954a36488b4bb1b, type: 3}
+--- !u!114 &5922045702822227571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54691208053151790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660e35e0a6b216e4fac36c6d8d516160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unsheatheSpeed: 2
+  doubleWeapon: 0
+  aimSpeed: 1
+  aimZoom: 1.01
+  abilityType: 0
+  abilityNum: 1
+  passiveKey: -1
+  cooldown: 100
+  minCooldown: 0
+  munitions: 3
+  maxPressDuration: 0
+  ultimate: 0
+  blockedAbilities: 000000000100
+  stolenKey: 0
+  duration: 0
+  abilityCaster: 0
+  abilityPosition: {x: 0, y: 0, z: 0}
+  abilityRotation: {x: 0, y: 0, z: 0}
+  animationType: PistolMode
+  animationName: 
+  allowed: 1
+  usedCooldown: 0
+  actCooldown: 0
+  actMunitions: 0
+  actDuration: 0
+  cast: 0
+  pressed: 0
+  pressDuration: 0
+  casting: 0
+  used: 0
+  main: {fileID: 0}
+  entityManager: {fileID: 0}
+  crosshair: {fileID: 0}
+  colliders: []
+  icon: {fileID: 0}
+  screenEffectsNames: []
+  screenEffectsInSpeeds: []
+  screenEffectsOutSpeeds: []
+  screenEffectsIntensities: []
+  primaryMode: {fileID: 0}
+  secondaryMode: {fileID: 0}
+--- !u!114 &-1181988063177382387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54691208053151790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35777388b0e3daf419b59c4b43d7604f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMiror: 0
+  isButton: 0
+  team: 0
+  destroyableByShields: 0
+  walkable: 0
+  ported: 0
+  dead: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b48e031c28616a4f8f8018ae769f40a, type: 3}
+  m_Name: bitmap_carrefourright
+  m_EditorClassIdentifier: 
+  surname: bitmap_carrefourright
+  links: 00010000010100
+  architecture: Corridor
+  biomes:
+  - Base
+  - Forest
+  - 
+  - 
+  - 
+  bitmap: {fileID: 21300000, guid: fc95df7765fb786449819ed33687bdc8, type: 3}
+  block: {fileID: 8022067652782401977, guid: 82e3fe22d08b7b240b6270e8303f8b15, type: 3}
+  spawnable: 1
+  bridgeable: 0
+  cannotBeOver:
+  - Place
+  - Void
+  - Bridge
+  minEtage: 0

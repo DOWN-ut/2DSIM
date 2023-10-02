@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3447551130921439385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3447551130921439384}
+  - component: {fileID: 3783721277972664526}
+  - component: {fileID: 3447551130921439367}
+  - component: {fileID: -506873440168450221}
+  m_Layer: 9
+  m_Name: Astronaut_Ability3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3447551130921439384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447551130921439385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3701798385150935940}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3783721277972664526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447551130921439385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7dd113a3010e54fbea5f09aa9cec99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effects:
+  - speed
+  - midairspeed
+  values:
+  - 1.5
+  - 5
+  durations: 3200000032000000
+  targetTeam: 0000000000000000
+  knockback: 0
+  knockup: 0
+  stackable: 0101010101
+  type: 2
+  maxAngle: 360
+  radius: 10
+  portee: 20
+  rembourser: 0
+  victims: []
+  layer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &3447551130921439367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447551130921439385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660e35e0a6b216e4fac36c6d8d516160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prenom: 
+  unsheatheSpeed: 2
+  doubleWeapon: 0
+  aimSpeed: 1
+  aimZoom: 1
+  abilityType: 0
+  abilityNum: 5
+  passiveKey: -1
+  castDelay: 0
+  cooldown: 120
+  minCooldown: 0
+  munitions: 1
+  dontusemunitions: 0
+  maxPressDuration: 0
+  ultimate: 0
+  blockedAbilities: 000000000000
+  stolenKey: 0
+  duration: 0
+  abilityCaster: 0
+  abilityPosition: {x: 0, y: 0, z: 0}
+  abilityRotation: {x: 0, y: 0, z: 0}
+  abilityLooksView: 0
+  animationType: PistolMode
+  animationName: 
+  animationSpeed: 1
+  keepActive: 0
+  linkedHealth: {fileID: 0}
+  allowed: 1
+  usedCooldown: 0
+  actCooldown: 0
+  actMunitions: 0
+  actDuration: 0
+  preCast: 0
+  cast: 0
+  pressed: 0
+  pressDuration: 0
+  preCastDelay: 0
+  casting: 0
+  used: 0
+  main: {fileID: 0}
+  entityManager: {fileID: 0}
+  crosshair: {fileID: 0}
+  colliders: []
+  visualMain: {fileID: 0}
+  surnames:
+  - Hurry
+  - Acceleration
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  descriptions:
+  - Increase your and your nearby allies's speed.
+  - Augmente votre vitesse de deplacement et celle de vos allies proches.
+  icon: {fileID: 21300000, guid: 871b252a74d692d4f91cef5c18d6865d, type: 3}
+  secondIcon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  animationsToStart: []
+  animationsToLoop: []
+  jauge: {fileID: 0}
+  particleToPlay: []
+  useSound: {fileID: 5388085648167985452}
+  munitionsVisualCounter: []
+  screenEffectsNames: []
+  screenEffectsInSpeeds: []
+  screenEffectsOutSpeeds: []
+  screenEffectsIntensities: []
+  screenEffectsDuration: 5
+  primaryMode: {fileID: 0}
+  secondaryMode: {fileID: 0}
+--- !u!114 &-506873440168450221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447551130921439385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35777388b0e3daf419b59c4b43d7604f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMiror: 0
+  isButton: 0
+  team: 0
+  interester: 0
+  destroyableByShields: 0
+  walkable: 0
+  cineticStealable: 0
+  railSystemAble: 0
+  ported: 0
+  dead: 0
+--- !u!1 &5595373230373166946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3701798385150935940}
+  - component: {fileID: 5388085648167985452}
+  m_Layer: 11
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3701798385150935940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595373230373166946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3447551130921439384}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &5388085648167985452
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595373230373166946}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ada8d13076bd67740900dd0bc98259c4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 0.25
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 130
+  DopplerLevel: 1.04
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.008333334
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

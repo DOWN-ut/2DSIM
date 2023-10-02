@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4479934699399397981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7937340491454056575}
+  - component: {fileID: 5816752050340959444}
+  m_Layer: 0
+  m_Name: Class_Thief
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7937340491454056575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479934699399397981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5816752050340959444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479934699399397981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea3c52f78543dd429a3a2321507f6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  officialName: Thief
+  surname: THIEF
+  life: 10000
+  speed: 8
+  run: 1.2
+  midairSpeed: 0.1
+  jump: 13
+  dodge: 20
+  numberOfWeapon: 1
+  inventorySize: 10
+  primaryWeapon: {fileID: 6323440077489076554, guid: 4ad7ed7b7c7dfc243b10ee41559528a2,
+    type: 3}
+  secondaryWeapon: {fileID: 0}
+  ability1: {fileID: 3447551130921439385, guid: f6bfd34a86e00d3438f09681401d4a6b,
+    type: 3}
+  ability2: {fileID: 3447551130921439385, guid: 7fccafb8f77831d41a474ee82fee6c8a,
+    type: 3}
+  ability3: {fileID: 0}
+  ultimate: {fileID: 0}
+  passive: {fileID: 3447551130921439385, guid: 7c611a0d13d8ef546b159579cdbdf7bf, type: 3}
+  passive2: {fileID: 0}
+  HUD: {fileID: 8067913200586105454, guid: f7c49eb8d97436d48a2fc6d4c0e29432, type: 3}
+  icon: {fileID: 0}
+  role: 0
+  damageRank: 0
+  healRank: 0
+  protectRank: 0
+  sustainRank: 0

@@ -1,0 +1,24 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Calculate
+
+float value;
+float power;
+float coef;
+texture textur;
+
+RWStructuredBuffer<float> Result;
+
+
+[numthreads(1, 1, 1)]
+void Calculate(uint id : SV_DispatchThreadID)
+{
+    float temp = coef * (pow(abs(value), power));
+
+    if (power % 2 != 0 && value < 0)
+    {
+        temp = -temp;
+    }
+
+    Result[id] = temp;
+}
+

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Class_Pathfinder
+  m_EditorClassIdentifier: Assembly-CSharp::Class_Handler
+  officialName: Pathfinder
+  surname: PATHFINDER
+  life: 2200
+  speed: 6
+  run: 1.2
+  midairSpeed: 0.1
+  jump: 12
+  dodge: 15
+  numberOfWeapon: 1
+  inventorySize: 10
+  primaryWeapon: {fileID: 4016767598963507487, guid: f1a1ef50af1d038499603722467dd901,
+    type: 3}
+  secondaryWeapon: {fileID: 0}
+  ability1: {fileID: 54691208053151790, guid: a81468a87c52fb74a972c60ba139003d, type: 3}
+  ability2: {fileID: 3447551130921439385, guid: 9d4e6118c15922b4cb4b0fabc87579ac,
+    type: 3}
+  ability3: {fileID: 0}
+  ultimate: {fileID: 3447551130921439385, guid: 6a3c9eb4e6f50174b95ef615f5df479a,
+    type: 3}
+  passive: {fileID: 3447551130921439385, guid: 43a424e0f3bbc3847adb953ad2660d67, type: 3}
+  passive2: {fileID: 0}
+  HUD: {fileID: 717474881296703234, guid: 3bbf889b6717ace44bdeb06e24393a93, type: 3}
+  icon: {fileID: 0}
+  role: 0
+  damageRank: 0
+  healRank: 0
+  protectRank: 0
+  sustainRank: 0

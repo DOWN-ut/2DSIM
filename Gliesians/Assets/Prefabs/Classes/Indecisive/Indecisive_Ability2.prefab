@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &905757828198724496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993342733828883640}
+  - component: {fileID: 3466603254630510635}
+  - component: {fileID: 860492355691692863}
+  m_Layer: 0
+  m_Name: Indecisive_Ability2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993342733828883640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905757828198724496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3466603254630510635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905757828198724496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3eedd624886d3543b2d0e6045d15aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxReturn: 100
+  travelSpeed: 7
+  positions: []
+  rotations: []
+  actReturn: 0
+  screenShrinkingInSpeed: 0.01
+  screenShrinkingOutSpeed: 0.005
+  screenShrinkColor: {r: 0, g: 1, b: 1, a: 0.5019608}
+  screenShrinkSize: 0.5
+--- !u!114 &860492355691692863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905757828198724496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660e35e0a6b216e4fac36c6d8d516160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unsheatheSpeed: 2
+  doubleWeapon: 0
+  aimSpeed: 1
+  aimZoom: 1
+  abilityType: 2
+  abilityNum: 2
+  cooldown: 150
+  minCooldown: 50
+  munitions: 1
+  maxPressDuration: 25
+  ultimate: 0
+  blockedAbilities: 000000000000
+  stolenKey: 0
+  duration: 0
+  allowed: 1
+  usedCooldown: 0
+  actCooldown: 0
+  actMunitions: 0
+  actDuration: 0
+  cast: 0
+  pressed: 0
+  pressDuration: 0
+  casting: 0
+  main: {fileID: 0}
+  entityManager: {fileID: 0}
+  crosshair: {fileID: 0}
+  icon: {fileID: 0}

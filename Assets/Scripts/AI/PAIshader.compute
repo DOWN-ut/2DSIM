@@ -1,0 +1,33 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Calc
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> textureOut;
+RWTexture2D<float4> textureInput;
+RWTexture2D<float4> filtrer;
+//RWStructuredBuffer<float4> textureIn;
+//RWStructuredBuffer<float4> filter;
+RWStructuredBuffer<int> width;
+
+float4 inp;
+float4 fil;
+float4 pixels;
+
+[numthreads(1, 1, 1)]
+void Calc(uint3 id : SV_DispatchThreadID)
+{
+    inp = textureInput[int2(id.x, id.y)];
+    fil = filtrer[int2(id.x, id.y)];
+    //int pos = ((int) id.y * width[0]) + id.x;
+    //pixels[0] = textureIn[uint(pos)][0] * filter[uint(pos)][0] ;
+    pixels[0] = inp[0] * fil[0];
+   // pixels[1] = textureIn[uint(pos)][1] * filter[uint(pos)][1] ;
+    pixels[1] = inp[1] * fil[1];
+    //pixels[2] = textureIn[uint(pos)][2] * filter[uint(pos)][2] ;
+    pixels[2] = inp[2] * fil[2];
+    //pixels[3] = textureIn[3] * filter[3];
+    pixels[3] = 1;
+
+    textureOut[int2(id.x, id.y)] = pixels; 
+} 

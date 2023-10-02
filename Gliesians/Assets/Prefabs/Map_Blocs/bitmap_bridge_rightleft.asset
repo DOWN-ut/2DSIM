@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b48e031c28616a4f8f8018ae769f40a, type: 3}
+  m_Name: bitmap_bridge_rightleft
+  m_EditorClassIdentifier: 
+  surname: bitmap_bridge_rightleft
+  links: 01010000000000
+  architecture: Bridge
+  architectureForce: 2
+  biomes:
+  - Base
+  - Forest
+  - 
+  - 
+  - 
+  bitmap: {fileID: 21300000, guid: 0377ce39792c7094ba231e2025558e1b, type: 3}
+  block: {fileID: 7229455309873012158, guid: 3543da517b802804b8be9b46818653e9, type: 3}
+  spawnable: 0
+  bridgeable: 1
+  cannotBeOver: []
+  minEtage: 1

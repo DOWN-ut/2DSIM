@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Class_Infiltrator
+  m_EditorClassIdentifier: Assembly-CSharp::Class_Handler
+  officialName: Infiltrator
+  surname: INFILTRATOR
+  life: 10000
+  speed: 6
+  run: 1.2
+  midairSpeed: 0.1
+  jump: 10
+  dodge: 15
+  numberOfWeapon: 1
+  inventorySize: 10
+  primaryWeapon: {fileID: 6323440077489076554, guid: aaf7294eee720b0409b572a3d527b510,
+    type: 3}
+  secondaryWeapon: {fileID: 6323440077489076554, guid: b2a25190743fea24493a388d51915eba,
+    type: 3}
+  ability1: {fileID: 3447551130921439385, guid: 6c4ebeb0881d7504390da0581cc4fad2,
+    type: 3}
+  ability2: {fileID: 3447551130921439385, guid: 5680e3656d4b14349851da697e41793c,
+    type: 3}
+  ability3: {fileID: 0}
+  ultimate: {fileID: 3447551130921439385, guid: e5b280fe0c6496a4cb9fc874de5648b5,
+    type: 3}
+  passive: {fileID: 0}
+  passive2: {fileID: 0}
+  HUD: {fileID: 8067913200586105454, guid: 4f3dd08d75aeb6c428dd20f8d513034b, type: 3}
+  icon: {fileID: 0}
+  role: 0
+  damageRank: 0
+  healRank: 0
+  protectRank: 0
+  sustainRank: 0

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8735454420259816534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3847072136068641474}
+  - component: {fileID: 3618534812257611097}
+  m_Layer: 0
+  m_Name: Class_Astronaut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3847072136068641474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735454420259816534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3618534812257611097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735454420259816534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea3c52f78543dd429a3a2321507f6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  officialName: Astronaut
+  surnames:
+  - Astronaut
+  - Astronaute
+  encodedName: Lead0
+  life: 10000
+  speed: 8
+  run: 1.2
+  midairSpeed: 3.5
+  gravity: 0.75
+  jump: 13
+  dodge: 20
+  numberOfWeapon: 1
+  inventorySize: 10
+  primaryWeapon: {fileID: 6323440077489076554, guid: f7068908752313945ba62bbdb78d1dbc,
+    type: 3}
+  secondaryWeapon: {fileID: 0}
+  ability1: {fileID: 3447551130921439385, guid: 2b555162c24a69d4896083199fb2a02a,
+    type: 3}
+  ability2: {fileID: 3447551130921439385, guid: 715939ec50fb4fe4085319388319020b,
+    type: 3}
+  ability3: {fileID: 3447551130921439385, guid: c27fac86897346345b08927f7957bc29,
+    type: 3}
+  ultimate: {fileID: 3447551130921439385, guid: 43beefddfb0d0e34fb4c692288520227,
+    type: 3}
+  passive: {fileID: 3447551130921439385, guid: 7b29749c2ca2da14985c227af8651de2, type: 3}
+  passive2: {fileID: 0}
+  HUD: {fileID: 4207497605170361036, guid: e4416fcd12c465840994d47e072ee2dd, type: 3}
+  icon: {fileID: 21300000, guid: 8ffd536832da9ce4ab3ec345502bf20e, type: 3}
+  iconColor: {r: 0, g: 1, b: 0.181463, a: 1}
+  mainColor: {r: 0, g: 1, b: 0.181463, a: 1}
+  secondColor: {r: 1, g: 1, b: 1, a: 1}
+  thirdColor: {r: 1, g: 1, b: 1, a: 1}
+  role: 0
+  roleNames:
+  - Leader
+  - Meneur
+  roleNumber: 0
+  descriptions:
+  - Manipulate gravity to improve your allies mobility, and bother the enemies.
+  - Manipulez la gravite pour augmenter la mobilite de vos allies, et gener les ennemis.
+  damageRank: 3
+  healRank: 0
+  protectRank: 1
+  sustainRank: 4

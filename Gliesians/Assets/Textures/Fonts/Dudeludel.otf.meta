@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ca22d8db60b4bcd48a0eb9d6901a2c59
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dudeludel
+  fontNames:
+  - Dudeludel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 23de8e523e9bedf4ca7e320266eb659b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

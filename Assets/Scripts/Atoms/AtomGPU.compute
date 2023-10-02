@@ -1,0 +1,20 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Attract
+
+float3 target;
+float3 pos;
+float2 vel;
+float dist;
+float force;
+
+RWStructuredBuffer<float> Result;
+RWStructuredBuffer<float3> Res;
+
+[numthreads(1,1,1)]
+void Attract (uint3 id : SV_DispatchThreadID)
+{
+	// TODO: insert actual code here!
+	
+    Res[id.x] = (float3(pos.x - target.x, pos.y - target.y, pos.z - target.z)) / (float) (1 + pow(dist, 2)); // - float3(vel.x, vel.y, 0)
+
+}

@@ -1,0 +1,21 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.1f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.1f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=2405 outsize=1239 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=10442 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Basic_Laser.vfx(11): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=5762 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Basic_Smoke.vfx(13): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=6619 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Basic_Smoke.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=3982 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=4 type=1 insize=4664 outsize=2506 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2332 outsize=1838 kw=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS _SHADOWS_SOFT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
